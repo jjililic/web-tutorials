@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Kakao Map Api</title>
+    <style>
+        html, body {
+            margin: 0px;
+            height: 100%;
+        }
+
+        #map {
+            background-color: red;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Kakao Map Api</h1>
-    <p>
-        Kakao Map Api
-    </p>
-    <div id="map" style="width:800px; height:600px; background-color: bisque;">
+    <div id="map">
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9550992fc6a478e3084ff47000924bee"></script>
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9550992fc6a478e3084ff47000924bee&libraries=services,clusterer,drawing"></script>
         <script>
