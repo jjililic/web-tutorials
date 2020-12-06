@@ -1,0 +1,19 @@
+{
+  "name": "web-tutorials",
+  "version": "1.0.0",
+  "description": "\"# web-tutorials\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjililic/web-tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjililic/web-tutorials/issues"
+  },
+  "homepage": "https://github.com/jjililic/web-tutorials#readme"
+}
