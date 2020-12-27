@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sheet.js demo</title>
+    <script lang="javascript" src="dist/xlsx.full.min.js"></script>
+</head>
+<body>
+<h1>sheet.js demo</h1>
+<div>
+    <input type="file" id="exelFile"/>
+    <button value="UPLOAD">
+</div>
+<script>
+    var selectedFile;
+    var excelFileInput = document.getElementById('exelFile');
+    excelFileInput.addEventListener("change", handleFiles, false);
+    function handleFiles() {
+        selectedFile = excelFileInput.files[0];
+        alert(selectedFile.name);
+        readExcelFile(selectedFile);
+    }
+
+    function readExcelFile(selectedFile) {
+        
+    }
+</script>
+</body>
+</html>
